@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+
+html, body {
+  min-height: 100vh;
+  overflow-y: hidden; 
+}
+
 html, body {
   min-height: 100vh;
   overflow-y: auto;
