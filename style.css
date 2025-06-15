@@ -1,0 +1,26 @@
+
+
+body {
+  margin: 0;
+  height: 100vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #151515;
+  color: bisque;
+}
+
+input, button {
+  background-color: rgb(184, 182, 182);
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
