@@ -5,7 +5,7 @@
 }
 
 html, body {
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden; /* or overflow-y: hidden if you only want to block vertical scroll */
 }
 
