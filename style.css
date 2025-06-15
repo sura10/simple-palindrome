@@ -6,7 +6,8 @@
 
 html, body {
   min-height: 100vh;
-  overflow: hidden; /* or overflow-y: hidden if you only want to block vertical scroll */
+  overflow-y: auto;
+  font-size: 16px;
 }
 
 body {
@@ -16,12 +17,13 @@ body {
   align-items: center;
   background-color: #151515;
   color: bisque;
+  padding: 20px;
 }
 
 input, button {
   background-color: rgb(184, 182, 182);
   padding: 10px;
-  font-size: 16px;
+  font-size: 1rem;
   border-radius: 10px;
   border: none;
 }
